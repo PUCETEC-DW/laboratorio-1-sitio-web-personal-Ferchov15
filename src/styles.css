@@ -1,9 +1,9 @@
 h1{
-    color: rgb(11, 34, 70);
+    color: rgb(11 34 70);
 }
 
 h1 + nav{
-    color: rgb(172, 164, 56);
+    color: rgb(172 164 56);
     margin-bottom: 30px;
 }
 
@@ -31,12 +31,12 @@ body {
 .info {
     max-width: 400px;
     text-align: left;
-    color: rgba(14, 172, 151, 0.925)
+    color: rgb(14 172 151)
 }
 
 
 .info a {
-    color: #f7f8fa;
+    color: rgb(246 247 248);
     text-decoration: none;
     margin: 0 5px;
 }
@@ -62,5 +62,5 @@ body {
 .actividades {
     max-width: 400px;
     text-align: left;
-    color: rgba(144, 144, 151, 0.925)
+    color: rgb(144 144 151)
 }
