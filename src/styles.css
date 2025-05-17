@@ -1,0 +1,66 @@
+h1{
+    color: rgb(11 34 70);
+}
+
+h1 + nav{
+    color: rgb(172 164 56);
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #635e69, #112b57);
+}
+
+.contenedor-derecho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.foto {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info {
+    max-width: 400px;
+    text-align: left;
+    color: rgb(14 172 151)
+}
+
+
+.info a {
+    color: rgb(246 247 248);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-izquierdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.foto-actividades{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.actividades {
+    max-width: 400px;
+    text-align: left;
+    color: rgb(160 160 209)
+}
